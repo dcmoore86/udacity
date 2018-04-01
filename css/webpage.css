@@ -1,0 +1,143 @@
+body {
+  max-width: 970px;
+  margin: 5px auto;
+}
+
+hr {
+  margin-bottom: 0;
+  color: #02b3e4;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+/*
+ *
+ * Header Section (Logo and Name)
+ *
+ */
+
+header {
+  background-color: #3d3d5c;
+  display: flex;
+}
+
+.header-name {
+  order: 2;
+  width: 15%;
+  min-width: 142.5px;
+}
+
+h1 {
+  font: 600 35px 'Allerta Stencil';
+  background-color: white;
+  margin-top: 45px;
+  padding-left: 15px;
+}
+
+.logo-container {
+  margin-left: 20px;
+  order: 1;
+  width: 85%;
+}
+
+/*
+ *
+ * Main Section
+ *
+ */
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  background-color: #a3a3c2;
+  font: 500 22px 'Allerta Stencil';
+  color: #3d3d5c;
+  margin-top: 0;
+  height: 30px;
+  text-align: center;
+  width: 100%;
+  order: -1;
+}
+
+aside {
+  width: 20%;
+  order: 0;
+}
+
+ul {
+  list-style: none;
+  font: 22px 'Allerta Stencil';
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 30px;
+  color: #a3a3c2;
+}
+
+li:hover {
+  text-decoration: underline wavy #02b3e4;
+}
+
+li::before {
+  content: "\200B";
+}
+
+.image-container {
+  width: 80%;
+  order: 1;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  order: 3;
+  width: 100%;
+}
+
+/*
+ *
+ * Featured Work
+ *
+ */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  width: 100%;
+  font: 500 26px 'Allerta Stencil';
+  color: #a3a3c2;
+  order: 0;
+  margin: 0;
+}
+
+figure {
+  width: 25%;
+  text-align: center;
+  height: 135px;
+}
+figure:nth-of-type(1) {
+  order: 1;
+}
+
+figure:nth-of-type(2) {
+  order: 2;
+}
+
+figure:nth-of-type(3) {
+  order: 3;
+}
