@@ -1,2 +1,2 @@
 # udacity
-Branch used for Udacity Projects
+Repo used for Udacity Projects
